@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "name": "Arclet Copier",
+      "description": "A Chrome Extension. Quickly copy current page URL with parameter filtering and Markdown formatting support.",
+      "link": "https://arcletcopier.com/",
+      "icon": "🌈",
+      "icon_img": "assets/img/arclet-copier-icon.png"
+    },
+    {
+      "name": "Feishu Document Creator",
+      "description": "A Raycast Extension. Create Feishu/Lark online document quickly using native Feishu/Lark URLs.",
+      "link": "https://www.raycast.com/rokcso/feishu-document-creator",
+      "icon": "🐦"
+    },
+    {
+      "name": "Hugo Bear Neo",
+      "description": "A Hugo theme. A feature-rich Hugo theme ported from Hugo Bear Blog, originally based on ʕ•ᴥ•ʔ Bear Blog, offering upvote buttons, elegant TOC, and UX refinements.",
+      "link": "https://github.com/rokcso/hugo-bearneo",
+      "icon": "🧸"
+    }
+  ]
+}
