@@ -1,59 +1,42 @@
-# Coryso Studio Landing Page
+# Coryso™ Studio Landing Page
 
-> code with purpose, build with passion
+> code with purpose, build with passion.
 
-Official landing page for Coryso Studio - an independent development studio dedicated to crafting digital products with soul.
+Official landing page for Coryso™ Studio.
 
-## 🚀 Tech Stack
+## Tech Stack
 
-- **Pure Static Site** - No framework dependencies
-- **HTML5 + CSS3 + Vanilla JavaScript**
-- **JSON-driven** - Dynamic product loading
-- **Responsive Design** - Mobile-first approach
-- **Dark Mode Support** - Automatic system preference detection
+- Pure static HTML/CSS/JavaScript
+- No frameworks, no build process
+- JSON-driven product loading
+- Dark mode support (auto-detect)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 coryso-landing/
-├── index.html              # Main landing page
-├── favicon.svg             # Site favicon
-├── assets/
-│   ├── css/
-│   │   └── main.css       # Stylesheet
-│   ├── js/
-│   │   └── main.js        # JavaScript functionality
-│   ├── data/
-│   │   └── products.json  # Product data
-│   └── img/               # Images and icons
-├── pages/                 # Additional pages
-├── .gitignore
-└── README.md
+├── index.html                  # Homepage
+├── _redirects                  # URL rewrites for Cloudflare Pages
+├── favicon.svg
+├── pages/
+│   └── privacy-policy.html
+└── assets/
+    ├── css/main.css
+    ├── js/main.js
+    ├── data/products.json
+    └── img/
 ```
 
-## 🎨 Design Philosophy
-
-- **Minimal & Clean** - Focus on content
-- **Retro-inspired** - Monospace fonts and dashed borders
-- **Developer-friendly** - Terminal aesthetic
-- **Accessible** - High contrast and readable typography
-
-## 🛠️ Development
-
-No build process required. Simply open `index.html` in a browser or serve with any static file server:
+## Development
 
 ```bash
-# Using Python
+# Serve locally
 python3 -m http.server 8000
 
-# Using Node.js
-npx serve
-
-# Using PHP
-php -S localhost:8000
+# Visit http://localhost:8000
 ```
 
-## 📝 Adding Products
+## Adding Products
 
 Edit `assets/data/products.json`:
 
@@ -62,28 +45,18 @@ Edit `assets/data/products.json`:
   "products": [
     {
       "name": "Product Name",
-      "description": "Product description",
+      "description": "Description",
       "link": "https://example.com",
-      "icon": "🎯",
-      "icon_img": "assets/img/icon.png"
+      "icon": "🎯"
     }
   ]
 }
 ```
 
-## 🚢 Deployment
+## Deployment
 
-This site is designed to be deployed on:
-- Vercel
-- Netlify
-- GitHub Pages
-- Any static hosting service
+Deployed on **Cloudflare Pages** with Git auto-deploy.
 
-## 📄 License
+The `_redirects` file maps `/privacy-policy` to `/pages/privacy-policy`.
 
-Copyright © 2024-2025, Coryso Studio. All rights reserved.
-
-## 🔗 Links
-
-- Website: https://coryso.com
-- Blog: https://rokcso.com
+Also compatible with Vercel, Netlify, and GitHub Pages.
