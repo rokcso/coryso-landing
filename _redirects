@@ -1,0 +1,5 @@
+# Cloudflare Pages Redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Map /privacy-policy to /pages/privacy-policy.html
+/privacy-policy  /pages/privacy-policy  200
