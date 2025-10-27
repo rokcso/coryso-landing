@@ -1,8 +1,8 @@
-# Coryso™ Studio Landing Page
+# Coryso Studio Landing Page
 
 > code with purpose, build with passion.
 
-Official landing page for Coryso™ Studio — an independent development studio crafting digital products with soul.
+Official landing page for Coryso Studio — an independent development studio crafting digital products with soul.
 
 🔗 **Live Site:** [coryso.com](https://coryso.com)
 
