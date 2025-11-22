@@ -97,4 +97,4 @@ Also compatible with:
 
 ## License
 
-Copyright © 2024-2025, Coryso™ Studio. All rights reserved.
+Copyright © 2024-2025, Coryso LLC. All rights reserved.
