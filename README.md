@@ -1,6 +1,6 @@
 # Coryso Studio Landing Page
 
-> code with purpose, build with passion.
+> Code with care, build with delight.
 
 Official landing page for Coryso Studio — an independent development studio crafting digital products with soul.
 
