@@ -8,6 +8,13 @@
       "icon_img": "assets/img/arclet-copier-icon.png"
     },
     {
+      "name": "Nookmark",
+      "description": "A Chrome Extension. AI-driven bookmark manager with local privacy, lightning-fast performance, and intelligent auto-generated descriptions.",
+      "link": "https://chromewebstore.google.com/detail/glenhnhphcnjcbifcfhphbiijipclgma",
+      "icon": "🔖",
+      "icon_img": "assets/img/nookmark-icon.png"
+    },
+    {
       "name": "Feishu Document Creator",
       "description": "A Raycast Extension. Create Feishu/Lark online document quickly using native Feishu/Lark URLs.",
       "link": "https://www.raycast.com/rokcso/feishu-document-creator",
