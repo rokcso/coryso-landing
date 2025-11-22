@@ -2,27 +2,27 @@
   "products": [
     {
       "name": "Arclet Copier",
-      "description": "A Chrome Extension. Quickly copy current page URL with parameter filtering and Markdown formatting support.",
+      "description": "A Chrome Extension. Copy URLs with intelligence—clean formatting, instant sharing, zero friction.",
       "link": "https://arcletcopier.com/",
       "icon": "🌈",
       "icon_img": "assets/img/arclet-copier-icon.png"
     },
     {
       "name": "Nookmark",
-      "description": "A Chrome Extension. AI-driven bookmark manager with local privacy, lightning-fast performance, and intelligent auto-generated descriptions.",
+      "description": "A Chrome Extension. AI-driven bookmark management that thinks for you—intelligent organization, complete privacy, effortless workflow.",
       "link": "https://chromewebstore.google.com/detail/glenhnhphcnjcbifcfhphbiijipclgma",
       "icon": "🔖",
       "icon_img": "assets/img/nookmark-icon.png"
     },
     {
       "name": "Feishu Document Creator",
-      "description": "A Raycast Extension. Create Feishu/Lark online document quickly using native Feishu/Lark URLs.",
+      "description": "A Raycast Extension. Where inspiration meets workflow—create documents instantly, ideas flow seamlessly.",
       "link": "https://www.raycast.com/rokcso/feishu-document-creator",
       "icon": "🐦"
     },
     {
       "name": "Hugo Bear Neo",
-      "description": "A Hugo theme. A feature-rich Hugo theme ported from Hugo Bear Blog, originally based on ʕ•ᴥ•ʔ Bear Blog, offering upvote buttons, elegant TOC, and UX refinements.",
+      "description": "A Hugo theme. A calm space for your thoughts—minimal design, focused reading, writing that feels natural.",
       "link": "https://github.com/rokcso/hugo-bearneo",
       "icon": "🧸"
     }
