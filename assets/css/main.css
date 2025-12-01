@@ -48,10 +48,7 @@ body {
     margin-bottom: 50px;
 }
 
-.brand-row {
-    display: inline-flex;
-    align-items: center;
-    gap: 20px;
+.site-header h1 {
     margin-bottom: 16px;
 }
 
@@ -62,60 +59,20 @@ body {
     opacity: 0.9;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo svg {
-    width: 40px;
-    height: 40px;
-}
-
 /* Responsive Design */
 @media (min-width: 1024px) {
-    .brand-row {
-        gap: 18px;
-        margin-bottom: 16px;
-    }
-
-    .logo svg {
-        width: 46px;
-        height: 46px;
-    }
-
     .slogan {
         font-size: 1.6em;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .brand-row {
-        gap: 16px;
-    }
-
-    .logo svg {
-        width: 44px;
-        height: 44px;
-    }
-
     .slogan {
         font-size: 1.55em;
     }
 }
 
-/* Hide logo on mobile devices and optimize typography */
 @media (max-width: 767px) {
-    .logo {
-        display: none;
-    }
-
-    .brand-row {
-        gap: 0;
-        margin-bottom: 12px;
-    }
-
     .site-header {
         margin-bottom: 40px;
     }
