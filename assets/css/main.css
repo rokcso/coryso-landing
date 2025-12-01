@@ -217,6 +217,17 @@ footer {
     margin: 0 10px;
 }
 
+.company-address {
+    margin: 12px 0 8px 0;
+    font-size: 0.9em;
+    opacity: 0.5;
+    line-height: 1.4;
+}
+
+.company-address p {
+    margin: 0;
+}
+
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
