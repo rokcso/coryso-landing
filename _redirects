@@ -3,3 +3,4 @@
 
 # Map /privacy-policy to /pages/privacy-policy.html
 /privacy-policy  /pages/privacy-policy  200
+/terms-of-service  /pages/terms-of-service  200
