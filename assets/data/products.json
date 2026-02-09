@@ -25,6 +25,13 @@
       "description": "A Hugo theme. A calm space for your thoughts—minimal design, focused reading, writing that feels natural.",
       "link": "https://github.com/rokcso/hugo-bearneo",
       "icon": "🧸"
+    },
+    {
+      "name": "AttriKit",
+      "description": "First-party advertising attribution system with self-hosted deployment. Full data control, 1-hour setup, 80%+ cost savings.",
+      "link": "https://attrikit.com/",
+      "icon": "🎯",
+      "icon_img": "assets/img/attrikit-icon.png"
     }
   ]
 }
