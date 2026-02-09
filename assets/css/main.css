@@ -253,3 +253,94 @@ footer {
     border-color: var(--link-color);
     text-decoration: none;
 }
+
+/* Graveyard Styles */
+.graveyard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tombstone-card {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--bg-color);
+    opacity: 0.75;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.tombstone-card:hover {
+    opacity: 1;
+}
+
+.tombstone-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.rip-icon {
+    font-size: 1.5em;
+    margin-right: 14px;
+    flex-shrink: 0;
+    opacity: 0.6;
+}
+
+.tombstone-icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 14px;
+    flex-shrink: 0;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tombstone-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.tombstone-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.tombstone-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 0 0 4px 0;
+}
+
+.tombstone-lifespan {
+    font-size: 0.85em;
+    opacity: 0.7;
+    font-family: 'SF Mono', monospace;
+    margin: 4px 0;
+}
+
+.tombstone-description {
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.tombstone-epitaph {
+    font-style: italic;
+    opacity: 0.8;
+    margin: 12px 0;
+    padding-left: 12px;
+    border-left: 2px solid var(--border-color);
+}
+
+.tombstone-archive {
+    margin-top: 8px;
+    font-size: 0.9em;
+}
