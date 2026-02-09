@@ -267,12 +267,6 @@ footer {
     border-radius: 8px;
     padding: 20px;
     background-color: var(--bg-color);
-    opacity: 0.75;
-    transition: opacity 0.2s ease-in-out;
-}
-
-.tombstone-card:hover {
-    opacity: 1;
 }
 
 .tombstone-header {
@@ -293,7 +287,6 @@ footer {
     height: 36px;
     margin-right: 14px;
     flex-shrink: 0;
-    opacity: 0.75;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -319,10 +312,12 @@ footer {
 }
 
 .tombstone-lifespan {
-    font-size: 0.85em;
-    opacity: 0.7;
-    font-family: 'SF Mono', monospace;
-    margin: 4px 0;
+    font-size: 0.8em;
+    font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+    opacity: 0.5;
 }
 
 .tombstone-description {
