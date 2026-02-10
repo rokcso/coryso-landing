@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "Skillix",
+      "description": "Your curated gateway to Xiaobot.net's finest columns — discover, explore, grow.",
+      "epitaph": "Curating knowledge, one column at a time.",
+      "icon_img": "assets/img/skillix-icon.png"
+    },
+    {
       "name": "URLxcode",
       "description": "A collection of URL online tools for encoding, decoding, parameter parsing, and JSON conversion.",
       "epitaph": "Built as a learning exercise. Discontinued, yet a private version survives.",
