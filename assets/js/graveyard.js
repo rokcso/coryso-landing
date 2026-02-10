@@ -6,10 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch('assets/data/graveyard.json');
         const data = await response.json();
 
-        // Sort by end date (newest first)
-        const projects = data.projects.sort((a, b) => {
-            return new Date(b.end_date) - new Date(a.end_date);
-        });
+        const projects = data.projects;
 
         if (projects.length === 0) {
             grid.innerHTML = '<p>The graves are empty. Long may it stay so.</p>';
@@ -35,7 +32,6 @@ function createTombstoneCard(project) {
     const article = document.createElement('article');
     article.className = 'tombstone-card';
 
-    const lifespan = formatLifespan(project.start_date, project.end_date);
     const epitaph = project.epitaph ? `<p class="tombstone-epitaph">${escapeHtml(project.epitaph)}</p>` : '';
     const archiveLink = project.link ? `<p class="tombstone-archive"><a href="${project.link}" target="_blank" rel="noopener">View archive ↗</a></p>` : '';
 
@@ -49,7 +45,6 @@ function createTombstoneCard(project) {
             ${iconHtml}
             <div class="tombstone-content">
                 <h3 class="tombstone-name">${escapeHtml(project.name)}</h3>
-                <p class="tombstone-lifespan">${lifespan}</p>
             </div>
         </div>
         <p class="tombstone-description">${escapeHtml(project.description)}</p>
@@ -58,10 +53,6 @@ function createTombstoneCard(project) {
     `;
 
     return article;
-}
-
-function formatLifespan(start, end) {
-    return `${start} — ${end}`;
 }
 
 function escapeHtml(text) {

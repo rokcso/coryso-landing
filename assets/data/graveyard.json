@@ -3,8 +3,6 @@
     {
       "name": "URLxcode",
       "description": "A collection of URL online tools for encoding, decoding, parameter parsing, and JSON conversion.",
-      "start_date": "2023-08-04",
-      "end_date": "2024-06-05",
       "epitaph": "Built as a learning exercise. Discontinued, yet a private version survives.",
       "link": "https://github.com/rokcso/NextURLxcode",
       "icon_img": "assets/img/urlxcode-icon.png"
