@@ -32,7 +32,7 @@ function createTombstoneCard(project) {
     const article = document.createElement('article');
     article.className = 'tombstone-card';
 
-    const epitaph = project.epitaph ? `<p class="tombstone-epitaph">${escapeHtml(project.epitaph)}</p>` : '';
+    const epitaph = project.epitaph ? `<p class="tombstone-epitaph">🌻 ${escapeHtml(project.epitaph)}</p>` : '';
     const archiveLink = project.link ? `<p class="tombstone-archive"><a href="${project.link}" target="_blank" rel="noopener">View archive ↗</a></p>` : '';
 
     // Use custom icon image if available, otherwise show R.I.P. text

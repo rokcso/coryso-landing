@@ -326,11 +326,8 @@ footer {
 }
 
 .tombstone-epitaph {
-    font-style: italic;
     opacity: 0.8;
     margin: 12px 0;
-    padding-left: 12px;
-    border-left: 2px solid var(--border-color);
 }
 
 .tombstone-archive {
