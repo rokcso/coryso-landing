@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "name": "Oregex",
+      "description": "An online toolkit for regular expressions — test, debug, and master patterns.",
+      "epitaph": "Patterns tested, lessons learned."
+    },
+    {
+      "name": "Oh My Nav",
+      "description": "A navigation directory for navigation sites. Navigational Inception.",
+      "epitaph": "Too many layers. Time to simplify."
+    },
+    {
       "name": "Z-lib One",
       "description": "A Z-Library directory with real-time updates of the latest official accessible URLs.",
       "epitaph": "Grateful for every reader served."
