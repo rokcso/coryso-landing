@@ -11,7 +11,7 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://coryso.com/graveyard.html" />
+        <meta property="og:url" content="https://coryso.com/graveyard" />
         <meta
             property="og:title"
             content="Graveyard - Coryso Studio"
@@ -34,7 +34,7 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@rokcso" />
         <meta name="twitter:creator" content="@rokcso" />
-        <meta name="twitter:url" content="https://coryso.com/graveyard.html" />
+        <meta name="twitter:url" content="https://coryso.com/graveyard" />
         <meta
             name="twitter:title"
             content="Graveyard - Coryso Studio"
@@ -50,7 +50,7 @@
         />
 
         <!-- Canonical URL -->
-        <link rel="canonical" href="https://coryso.com/graveyard.html" />
+        <link rel="canonical" href="https://coryso.com/graveyard" />
 
         <!-- Favicons -->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
