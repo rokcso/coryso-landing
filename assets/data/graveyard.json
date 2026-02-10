@@ -1,6 +1,11 @@
 {
   "projects": [
     {
+      "name": "Z-lib One",
+      "description": "A Z-Library directory with real-time updates of the latest official accessible URLs.",
+      "epitaph": "Grateful for every reader served."
+    },
+    {
       "name": "Skillix",
       "description": "Your curated gateway to Xiaobot.net's finest columns — discover, explore, grow.",
       "epitaph": "Curating knowledge, one column at a time.",

@@ -35,10 +35,10 @@ function createTombstoneCard(project) {
     const epitaph = project.epitaph ? `<p class="tombstone-epitaph">🌻 ${escapeHtml(project.epitaph)}</p>` : '';
     const archiveLink = project.link ? `<p class="tombstone-archive"><a href="${project.link}" target="_blank" rel="noopener">View archive ↗</a></p>` : '';
 
-    // Use custom icon image if available, otherwise show R.I.P. text
+    // Use custom icon image if available
     const iconHtml = project.icon_img
         ? `<span class="tombstone-icon"><img src="${project.icon_img}" alt=""></span>`
-        : `<span class="rip-icon">R.I.P.</span>`;
+        : '';
 
     article.innerHTML = `
         <div class="tombstone-header">
