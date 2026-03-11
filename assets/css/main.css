@@ -120,6 +120,28 @@ p {
     margin-bottom: 30px;
 }
 
+.section.announcement {
+    background: linear-gradient(135deg, rgba(0, 123, 255, 0.08), rgba(0, 123, 255, 0.03));
+    border: 1px solid var(--link-color);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.section.announcement h3 {
+    margin: 0 0 10px 0;
+    color: var(--link-color);
+    font-size: 1.2em;
+}
+
+.section.announcement p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.section.announcement a {
+    font-weight: 500;
+}
+
 .section-title {
     font-size: 1.2em;
     font-weight: bold;
