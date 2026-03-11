@@ -1,6 +1,13 @@
 {
   "products": [
     {
+      "name": "Shipstry",
+      "description": "The place where makers showcase their products and early adopters discover what's next.",
+      "link": "https://shipstry.com/",
+      "icon": "🚢",
+      "icon_img": "assets/img/shipstry-icon.svg"
+    },
+    {
       "name": "Arclet Copier",
       "description": "A Chrome Extension. Copy URLs with intelligence—clean formatting, instant sharing, zero friction.",
       "link": "https://arcletcopier.com/",
